@@ -6,4 +6,10 @@
  1. BiGRU
  2. BiLSTM
  3. CNN
+ 4. CNNLSTMAutoencoder
+ 5. GRU
+ 6. LSTM
+ 7. SVR
+
+ 
  
