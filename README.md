@@ -5,7 +5,7 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
-| BiGRU      | 130.707       |108.31| 44.88| | 
+| BiGRU      | 82.19       |76.6 | 32.86 | adam, MSE | 
 | BiLSTM      | 43.221       |32.318| 13.91| RMSProp, MSE |
 | CNN      | 89.65      | 80.416| 38.016| SGD, MSE |
 | LSTM      |88.39       |86.4| 40.03| SGD, MSE |
