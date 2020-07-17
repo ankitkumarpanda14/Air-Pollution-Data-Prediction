@@ -22,6 +22,16 @@
 | CLAE      | 21.50       |19.048| 7.243|  (RMSProp, MAE) (Adam,MSE)|
 
 
+# Brajrajnagar Dataset for PM10
+
+| Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
+| ----------- | ----------- | ----| ---- | ------------------------ |
+| BiGRU      | 61.42       |46.96 | 37.53 | RMSProp, MAE | 
+| BiLSTM      |        || |  |
+| CNN      |       | | |  |
+| LSTM      |       || |  |
+| CLAE      | 8.21      |6.8644| 3.998| (RMSProp, MAE) (Adam,MSE)|
+
 # Beijing Dataset for PM10
 
  1. BiGRU
