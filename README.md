@@ -13,7 +13,7 @@
 
 # Talcher Dataset for PM2.5
 
-| Model       | RMSE        | MAE | MAPE | PARAMETERS (LOSS) |
+| Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ---------- |
 | BiGRU      | 70.72    |61.259 | 22.60|    RMSProp, MSE |
 | BiLSTM      | 75.072       |64.923| 28.931| RMSProp, MAE | 
