@@ -46,11 +46,11 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
-| BiGRU      |       | |  |  | 
-| BiLSTM      |        || |  |
-| CNN      |      | ||  |
-| LSTM      |       || |  |
-| CLAE      | 40.36       |34.03|9.826| (RMSProp, MAE) (Adam,MSE)|
+| BiGRU      | 92.796      | 83.16 | 25.32 | RMSProp, MSE  | 
+| BiLSTM      |    49.38   | 47.53 | 14.34 | RMSProp, MSE |
+| CNN      | 86.12     |62.62 |16.478| Adam, MAE |
+| LSTM      |   58.56    |56.01|16.15 | RMSProp, MSE  |
+| CLAE      | 40.36       |34.03|9.826| (RMSProp, MSE) (Adam,MSE)|
 
 
 
