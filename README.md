@@ -27,9 +27,9 @@
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
 | BiGRU      | 61.42       |46.96 | 37.53 | RMSProp, MAE | 
-| BiLSTM      |        || |  |
-| CNN      |       | | |  |
-| LSTM      |       || |  |
+| BiLSTM      |   55.50     |47.37| 35.29| RMSProp, MAE  |
+| CNN      |   72.85    | 64.86|48.33 | SGD,MSE  |
+| LSTM      |   66.70    |56.79|42.826 |RMSProp, MAE  |
 | CLAE      | 8.21      |6.8644| 3.998| (RMSProp, MAE) (Adam,MSE)|
 
 # Beijing Dataset for PM10
