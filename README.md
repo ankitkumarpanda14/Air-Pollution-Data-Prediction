@@ -30,6 +30,7 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
+| SVR      |     40.78   |35.41 | 26.10 | NA | 
 | ANN      | 42.165       |36.609 | 25.20 | SGD, MSE | 
 | BiGRU      | 61.42       |46.96 | 37.53 | RMSProp, MAE | 
 | BiLSTM      |   55.50     |47.37| 35.29| RMSProp, MAE  |
@@ -41,6 +42,8 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
+| SVR      |    18.74  | 35.41 | 26.103 | NA  | 
+| ANN      |     22.08   | 16.69| 16.399 | SGD, MSE  | 
 | BiGRU      |     67.65   | 52.09| 29.245 | RMSProp, MAE  | 
 | BiLSTM      | 58.29   |43.61| 24.14 | RMSProp, MAE   |
 | CNN      |   29.36    |25.815|18.04 |SGD, MSE   |
