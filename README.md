@@ -6,7 +6,7 @@
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
 | SVR      | 156.06       |151.09 | 70.04 | NA |
-| ANN      |        | |  | SGD, MSE | 
+| ANN      | 125.86       | 123.313 | 57.06  | SGD, MSE | 
 | BiGRU      | 82.19       |76.6 | 32.86 | Adam, MSE | 
 | BiLSTM      | 43.221       |32.318| 13.91| RMSProp, MSE |
 | CNN      | 89.65      | 80.416| 38.016| SGD, MSE |
@@ -54,6 +54,8 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
+| SVR      | 205.00      | 196.977 | 54.736 | NA  | 
+| ANN      | 165.05      | 154.12 | 42.178 | SGD, MSE  | 
 | BiGRU      | 92.796      | 83.16 | 25.32 | RMSProp, MSE  | 
 | BiLSTM      |    49.38   | 47.53 | 14.34 | RMSProp, MSE |
 | CNN      | 86.12     |62.62 |16.478| Adam, MAE |
@@ -64,6 +66,8 @@
 
 | Model       | RMSE        | MAE | MAPE | Parameters (Opti, Loss) |
 | ----------- | ----------- | ----| ---- | ------------------------ |
+| SVR      |     73.619   | 60.766 |79.16 | NA | 
+| ANN      |     74.379   | 59.329 |79.11 | SGD,MSE | 
 | BiGRU      |     41.46   | 33.38 |34.87 | RMSProp, MAE | 
 | BiLSTM      |   44.59     |41.10| 47.55| RMSProp, MSE |
 | CNN      |  61.57     | 58.11| 61.73 | SGD, MSE |
